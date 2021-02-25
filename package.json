@@ -1,0 +1,27 @@
+{
+  "name": "logoinusa-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/pages/**/*.html",
+    "lint": "eslint src/js/**/*.js",
+    "format": "prettier src/**/*.{js,html,css} --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
+    "fancybox": "^3.0.1",
+    "jquery": "^3.5.1",
+    "macy": "^2.5.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "parcel": "^1.12.4",
+    "prettier": "^2.2.1"
+  }
+}
