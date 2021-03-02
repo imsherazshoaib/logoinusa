@@ -8,6 +8,8 @@ import "@fancyapps/fancybox/dist/jquery.fancybox.min.css"
 // import "@fancyapps/fancybox"
 // import Macy from "macy"
 
+// Banner Slider
+
 jQuery('.banner-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -16,6 +18,23 @@ jQuery('.banner-slider').slick({
     arrows: false,
   });
 
+  // Brand Slider
+
+  jQuery('.logo-slide').slick({
+    autoplay: true,
+    slidesToShow: 3,
+    autoplaySpeed: 1000,
+    arrows: false,
+  })
+
+  jQuery('.service-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+    speed: 1500,
+  });
   // accordian 
 
 const accordianHeaders = document.querySelectorAll('.accordian-header')
