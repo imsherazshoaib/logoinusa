@@ -28,12 +28,21 @@ jQuery('.banner-slider').slick({
   })
 
   jQuery('.service-slider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
     arrows: false,
-    speed: 1500,
+    fade: true,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear',
+  });
+
+  jQuery('.pricing-banner-slider').slick({
+    autoplay: true,
+    arrows: false,
+    fade: true,
+    infinite: true,
+    speed: 500,
+    cssEase: 'linear',
   });
   // accordian 
 
@@ -62,27 +71,62 @@ accordianHeaders.forEach((accordianHeader) => {
   })
 })
 
-// if(document.getElementById('macy-container')){
-//   var macyInstance = new Macy({
-//   container: '#macy-container',
-//   trueOrder: false,
-//   waitForImages: true,
-//   useOwnImageLoader: false,
-//   debug: true,
-//   mobileFirst: true,
-//   columns: 1,
-//   margin: {
-//     y: 16,
-//     x: '2%',
-//   },
-//   breakAt: {
-//     1200: 3,
-//     940: 3,
-//     520: 2,
-//     400: 2,
-//   },
-//   // See below for all available options.
-// })
+// Tabs Slider
+
+const TabsSlider = jQuery('.tabs-slider').slick({
+  // infinite: false,
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  prevArrow: '.previous-tab',
+  nextArrow: '.next-tab',
+  variableWidth: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
 
 
-// }
+// Service slider
+
+const buttons = document.querySelectorAll('.portfolio-tab')
+const section = document.querySelectorAll('.portfolio-filter')
+
+buttons.forEach(item => {
+  item.addEventListener('click', () => {
+    buttons.forEach(item => {
+      item.className = "";
+      item.className = "portfolio-tab";
+    });
+    item.className = "active";
+    // show images
+    let values = item.textContent;
+    section.forEach(show => {
+        show.style.display = "none";
+        if (show.getAttribute("data-id") === values) {
+            show.style.display = "block";
+        }
+    })
+  })
+})
+

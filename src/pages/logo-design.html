@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400
     &family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/slick.css">
 </head>
 <body>
@@ -31,52 +32,14 @@
     </header>
     <header class="header d-none d-lg-block">
         <div class="container-fluid">
-          <div class="row align-items-center">
-            <div class="col-4">
-              <nav class="navbar navbar-expand-lg pl-0">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./service.html"
-                        >
-                        <img src="../images/nav-icon-1.svg" alt="" />
-                        Service</a
-                      >
-                    </li>
-                    <li class="nav-item d-flex">
-                      <a class="nav-link" href="#"
-                        >
-                        <img src="../images/nav-icon-2.svg" alt="" />
-                        How it works</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"
-                        >
-                        <img src="../images/nav-icon-3.svg" alt="" />
-                        Portfolio</a
-                      >
-                    </li>
-                  </ul>
+          <div class="row align-items-center justify-content-between">
+            <div class="col-3">
+                <div class="logo">
+                    <img src="../images/logo.png" width="60%" alt="" />
                 </div>
-              </nav>
             </div>
-            <div class="col-4 d-flex justify-content-center">
-              <img src="../images/logo.png" width="40%" alt="" />
-            </div>
-            <div class="col-4 d-flex justify-content-end pr-0">
-              <nav class="navbar navbar-expand-lg pr-0">
+            <div class="col-7 d-flex justify-content-end">
+              <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid pr-0">
                   <button
                     class="navbar-toggler"
@@ -94,30 +57,40 @@
                     id="navbarSupportedContent"
                   >
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"
-                          >
-                          <img src="../images/nav-icon-4.svg" alt="" />
-                          Support</a
-                        >
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"
-                          >
-                          <img src="../images/nav-icon-5.svg" alt="" />
-                          021 123456789</a
-                        >
-                      </li>
-                      <li class="nav-item login">
-                        <a class="nav-link active" aria-current="page" href="#"
-                          >
-                          <img src="../images/nav-icon-6.svg" alt=""/>
-                        </a>
-                        <div class="user-login">
-                            <a href="">Login</a>
-                        </div>
-                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./service.html"
+                              >
+                              Service</a
+                            >
+                        </li>
+                        <li class="nav-item d-flex">
+                            <a class="nav-link" href="#"
+                              >
+                              How it works</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"
+                              >
+                              Portfolio</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"
+                            >
+                            Support</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"
+                            >
+                            Login
+                            </a>
+                        </li>
                     </ul>
+                    <button class="dark-btn">
+                        Try FREE
+                    </button>
                   </div>
                 </div>
               </nav>
@@ -128,7 +101,7 @@
     <section class="inner-banner">
         <div class="container-fluid">
             <div class="row align-items-center justify-content-center">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-8 col-12">
                     <div class="inner-banner-content">
                         <h1 class="banner-title">Logo Design <br>
                             And Identity</h1>
@@ -188,7 +161,7 @@
         </div>
       </section>
 
-    <!-- Logo Section on mobile screen -->
+    <!-- Logo Section on desktop screen -->
 
     <section class="brand-section d-none d-lg-block">
         <div class="container">
@@ -206,89 +179,50 @@
         </div>
     </section>
     <section class="section how-it-works">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-12 offset-lg-2">
-                    <h2 class="section-heading">Standing out from the crowd isn’t easy,
-                        which is why we’re here  to make it
-                        simple for you.</h2>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 col-12 col-md-10">
+                    <h2 class="section-heading">Standing out from the crowd isn’t
+                        easy, which is why we’re here
+                        to make it simple for you.</h2>
                 </div>
             </div>
-            <div class="row pb-5">
-                <div class="col-lg-6 col-10 d-flex justify-content-center">
-                    <div class="d-flex align-items-center">
-                        <div class="step-1">
-                            1
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-10 col-md-6 d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="how-it-works-content text-center">
+                                <img src="../images/step-1.png" alt="">
+                                <h4 class="content-title">Request Design</h4>
+                                <p class="medium-text">Request a design, day or night, 
+                                via Trello or Slack.</p>
+                            </div>
                         </div>
-                        <div>
-                            <h4 class="content-title">Request Design</h4>
-                        <p class="medium-text">Request a design, day or night, <br>
-                            via Trello or Slack.</p>
+                        <div class="col-lg-3">
+                            <div class="how-it-works-content text-center">
+                                <img src="../images/step-2.png" alt="">
+                                <h4 class="content-title">Recieve Design</h4>
+                                <p class="medium-text">Receive your design within a few 
+                                business days on average, Monday 
+                                to Friday.</p>
+                            </div>
                         </div>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-6 d-lg-block d-none">
-                    <div class="d-flex justify-content-center">
-                        <img src="../images/step-1.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row pb-5">
-                <div class="col-lg-6 d-lg-block d-none">
-                    <div class="d-flex justify-content-end">
-                        <img src="../images/step-2.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <div class="d-flex align-items-center">
-                        <div class="step-1">
-                            2
+                        <div class="col-lg-3">
+                            <div class="how-it-works-content text-center">
+                                <img src="../images/step-3.png" alt="">
+                                <h4 class="content-title">Revise Design</h4>
+                                <p class="medium-text">We'll revise the design until you're 
+                                100% satisfied.</p>
+                            </div>
                         </div>
-                        <div>
-                            <h4 class="content-title">Recieve Design</h4>
-                            <p class="medium-text">Receive your design within a few <br>
-                            business days on average, Monday <br>
-                            to Friday.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row pb-5">
-                <div class="col-lg-6 col-10 d-flex justify-content-center">
-                    <div class="d-flex align-items-center">
-                        <div class="step-1">
-                            3
-                        </div>
-                        <div>
-                            <h4 class="content-title">Revise Design</h4>
-                            <p class="medium-text">We'll revise the design until<br> you're 
-                            100% satisfied.</p>
-                        </div>   
-                    </div>
-                </div>
-                <div class="col-lg-6 d-lg-block d-none">
-                    <div class=" d-flex justify-content-center">\
-                        <img src="../images/step-3.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row pb-lg-5">
-                <div class="col-lg-6 d-lg-block d-none">
-                    <div class="d-flex justify-content-end">
-                        <img src="../images/step-2.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 d-flex justify-content-end">
-                    <div class="d-flex align-items-center">
-                        <div class="step-1">
-                            4
-                        </div>
-                        <div>
-                            <h4 class="content-title">Recieve Design</h4>
-                            <p class="medium-text">Receive your design within a few <br>
-                            business days on average, Monday <br>
-                            to Friday.</p>
+                        <div class="col-lg-3">
+                            <div class="how-it-works-content text-center">
+                                <img src="../images/step-2.png" alt="">
+                                <h4 class="content-title">Recieve Design</h4>
+                                <p class="medium-text">Receive your design within a few 
+                                business days on average, Monday 
+                                to Friday.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -303,334 +237,10 @@
         </div>
     </section>
     
-    <section class="section pricing-section">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 col-12 text-center">
-                    <h2 class="section-heading">
-                        Save Big With LogoInUsa
-                    </h2>
-                    <p class="section-intro">
-                        Try us out for the first week. Discuss your ideas with our Dedicated Project Team.
-                        See if the process is suitable for you. Explore and Experiment with your ideas
-                        along with our talented professionals.
-                    </p>
-                </div>
-            </div>
-            <div class="pricing-banner">
-                <div class="row">
-                    <div class="col-lg-6 col-12">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6 col-10">
-                                <div class="package-label d-lg-none d-block">
-                                    <img src="../images/package-label.png" alt="">
-                                    <span>Best Package</span>
-                                </div>
-                                <div class="package">
-                                    <img src="../images/icon_logo design.svg" class="img-fluid" alt="">
-                                    <h4 class="content-title">
-                                        Logo Design & Brand
-                                        Identity Pack
-                                    </h4>
-                                    <p class="medium-text">For most business that want
-                                    to optimize web queries</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-10">
-                                <div class="package-label d-lg-block d-none">
-                                    <img src="../images/package-label.png" alt="">
-                                    <span>Best Package</span>
-                                </div>
-                                <div class="package-list">
-                                    <h4 class="content-title">
-                                        You will get!
-                                    </h4>
-                                    <ul>
-                                        <li><span><img src="../images/check.png" alt=""></span>Logo</li>
-                                        <li><span><img src="../images/check.png" alt=""></span>Business Card</li>
-                                        <li><span><img src="../images/check.png" alt=""></span>Letterhead & Envelope</li>
-                                        <li><span><img src="../images/check.png" alt=""></span>Facebook Cover</li>
-                                    </ul>
-                                    <div class="d-flex align-items-center">
-                                        <p class="medium-text m-0">With</p>
-                                        <label for="price" class="price-label ml-2">$799</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12 d-none d-lg-block">
-                        <div id="slideset6">
-                            <div>
-                                <img  src="../images/package-banner-1.jpg" class="img-fluid">
-                            </div>
-                            <div>
-                                <img  src="../images/package-banner-2.jpg" class="img-fluid">
-                            </div>
-                            <div>
-                                <img  src="../images/package-banner-3.jpg" class="img-fluid">
-                            </div>
-                            <div>
-                                <img  src="../images/package-banner-4.jpg" class="img-fluid">
-                            </div>
-                        </div>    
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/logo-design.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Logo Design</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/web-design.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Web & App Design</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/business&advertising.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Business & Advertising</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/clothing.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Clothing & Merchandise</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/art&illustration.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Art & Illustration</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/packaging-label.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Packaging & Label</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/book&magazine.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Book & Magazine</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/explainer-video.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Explainer Video</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/animated-gifs.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Animated Gif's</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/logo-animation.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Logo Animation</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/app&website-video.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>App & Website Video</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/3d-modeling.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>3D Modeling & Animation</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/3d-product.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>3D Product Animation</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/book-trailer.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Book Trailer</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-12">
-                            <div class="pricing-box text-center">
-                                <img src="../images/animated-videos.png" alt="">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <h5>Animated Videos</h5>
-                                    <label for="price" class="price-label ml-2">$799</label>
-                                </div>
-                                <p class="medium-text">
-                                Make your website design with
-                                best designers
-                                </p>
-                                <button class="dark-btn">
-                                    Choose Plan
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="section testimonial">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-12 offset-lg-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 col-md-10">
                     <h2 class="section-heading">
                     What Our Customer’s Saying
                     About Us?
@@ -638,7 +248,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <img src="../images/line-4.png" class="line-image" alt="">
                     <div class="client-comments">
                         <div class="d-flex align-items-center mb-4">
@@ -657,7 +267,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <img src="../images/line-3.png" class="line-image" alt="">
                     <div class="client-comments">
                         <div class="d-flex align-items-center mb-4">
@@ -680,7 +290,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <img src="../images/line-4.png" class="line-image" alt="">
                     <div class="client-comments">
                         <div class="d-flex align-items-center mb-4">
@@ -703,7 +313,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <img src="../images/line-3.png" class="line-image" alt="">
                     <div class="client-comments">
                         <div class="d-flex align-items-center mb-4">
@@ -726,7 +336,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <img src="../images/line-4.png" class="line-image" alt="">
                     <div class="client-comments">
                         <div class="d-flex align-items-center mb-4">
@@ -749,7 +359,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <img src="../images/line-3.png" class="line-image" alt="">
                     <div class="client-comments">
                         <div class="d-flex align-items-center mb-4">
@@ -768,7 +378,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <img src="../images/line-4.png" class="line-image" alt="">
                     <div class="client-comments">
                         <div class="d-flex align-items-center mb-4">
@@ -791,7 +401,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <img src="../images/line-3.png" class="line-image" alt="">
                     <div class="client-comments">
                         <div class="d-flex align-items-center mb-4">
@@ -810,7 +420,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 col-md-6">
                     <img src="../images/line-4.png" class="line-image" alt="">
                     <div class="client-comments">
                         <div class="d-flex align-items-center mb-4">
@@ -836,29 +446,27 @@
             </div>
         </div>
     </section>
-    <section>
-        <section class="section supported-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Supported Apps & Extention</h2>
-                        <div>
-                            <img src="../images/supported-app.png" class="img-fluid" alt="">
-                        </div>
+    <section class="section supported-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Supported Apps & Extention</h2>
+                    <div>
+                        <img src="../images/supported-app.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
     <section class="section faq">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
                     <h2 class="section-heading">Frequentky Asked Question</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-10 col-12 text-center">
+                <div class="col-lg-10 col-12 col-md-11 text-center">
                     <div class="accordian text-left">
                         <div class="accordian-item">
                             <div class="accordian-header">
@@ -981,7 +589,7 @@
                             If your questions is not listed here Go our complete <br>
                             FAQ section Or send us a message via Chat.
                         </h6>
-                        <img src="../images/faq.png" class="d-none d-lg-block" alt="">
+                        <img src="../images/faq.png" class="d-none d-lg-block d-md-block" alt="">
                     </div>
                 </div>
             </div>
@@ -990,24 +598,18 @@
     <section class="section cta">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-12">
-                    <h3 class="mb-2">Try LogoInUsa For Your Work <br>
-                        with 30 days money back
-                        guarantee</h3>
-                        <p class="medium-text mb-lg-3">
-                        100+ vectorized scribbbles to spice up your design 
-                        projects.
-                        </p>
-                        <a href="./book-a-call.html">
-                            <button class="light-btn">
-                                Call Schedule
-                            </button>
-                        </a>
-                </div>
-                <div class="col-lg-6 col-12 text-right">
-                    <div class="cta-image">
-                        <img src="../images/cta.png" class="img-fluid" alt="">
-                    </div>
+                <div class="col-lg-7 col-12">
+                    <h3 class="mb-2 d-none d-lg-block">Call LogoInUSA <br>
+                    30 days money back guarantee</h3>
+                    <h3 class="mb-2 d-block d-lg-none">Call LogoInUSA
+                        30 days money back guarantee</h3>
+                    <p class="medium-text">
+                    100+ vectorized scribbbles to spice up your design 
+                    projects.
+                    </p>
+                    <a href="./book-a-call.html" class="schedule-btn">
+                    Call Schedule
+                    </a>
                 </div>
             </div>
         </div>
@@ -1034,7 +636,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-12">
+                <div class="col-lg-3 col-12 col-md-6">
                     <div class="links company-links">
                         <h5>Company</h5>
                         <ul>
@@ -1046,7 +648,48 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-12">
+                <div class="col-lg-3 col-12 col-md-6 d-md-block d-lg-none d-none">
+                    <div class="links help-links">
+                        <h5>Help</h5>
+                        <ul>
+                            <li>
+                                <img src="../images/email-icon.png" alt="">
+                                <ul>
+                                    <li class="help-link">
+                                        Email:
+                                    </li>
+                                    <li>
+                                        <a href="">LogoInUsa@gmail.com</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <img src="../images/phone-icon.png" alt="">
+                                <ul>
+                                    <li class="help-link">
+                                        Phone:
+                                    </li>
+                                    <li>
+                                        <a href="">+12 345 678 910</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <img src="../images/address-icon.png" alt="">
+                                <ul>
+                                    <li class="help-link">
+                                        Address:
+                                    </li>
+                                    <li>
+                                        <a href="">1317 Edgewater Dr #2037 <br>
+                                            Orlando, FL 32804</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 col-md-6">
                     <div class="links">
                         <h5>Services</h5>
                             <ul class="service-links-1">
@@ -1061,7 +704,7 @@
                             </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-12">
+                <div class="col-lg-3 col-12 col-md-6">
                     <div class="links service-links-2">
                             <ul>
                                 <li><a href="./explainer-video.html">Explainer Video & 
@@ -1076,7 +719,7 @@
                             </ul>
                         </div>
                     </div>
-                <div class="col-lg-3 col-12">
+                <div class="col-lg-3 col-12 d-lg-block d-md-none">
                     <div class="links help-links">
                         <h5>Help</h5>
                         <ul>
@@ -1120,7 +763,7 @@
             </div>
             <div class="footer-bottom">
                 <div class="row justify-content-center">
-                    <div class="col-lg-6 col-12 d-lg-block d-none">
+                    <div class="col-lg-6 col-12 d-lg-block d-none d-md-block">
                         <ul>
                             <li>2021</li>
                             <li><img src="../images/logo.png" alt=""></li>
@@ -1131,7 +774,7 @@
                             <li><a href="">Terms Condition</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-6 col-10 d-lg-none d-block ">
+                    <div class="col-lg-6 col-10 d-lg-none d-block d-md-none">
                         <ul>
                             <li>2021</li>
                             <li><img src="../images/logo.png" alt=""></li>
