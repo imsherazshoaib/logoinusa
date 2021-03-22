@@ -1,5 +1,7 @@
 import "@fortawesome/fontawesome-free/js/all.js"
 import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.js"
+
 import 'slick-carousel/slick/slick.css'
 import '../css/style.css'
 import jQuery from "jquery"
@@ -7,6 +9,7 @@ import 'slick-carousel'
 import "@fancyapps/fancybox/dist/jquery.fancybox.min.css"
 // import "@fancyapps/fancybox"
 // import Macy from "macy"
+import "bootstrap"
 
 // Banner Slider
 

@@ -400,14 +400,6 @@ ul li a{
     color: #B22234;
 }
 
-/* Schedule */
-
-.testimonial-in-schedule{
-    background-image: url(../images/schedule-background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /* Service Page */
 
 /* Banner */
@@ -417,42 +409,11 @@ ul li a{
 }
 .service-slider-item{
     position: relative;
-
 }
 .service-banner-content{
     position: absolute !important;
     top: 35%;
-    left: 26%;
-}
- .service-slider-item{
-     padding: 108px 30px;
-    background-color: #EEEAE0;
-}
-.service-slider-item-2{
-    background-color: #E1E9EB;
-    padding: 0px;
-}
-
-.service-slider-item-3{
-    background-color: #FFEBAE;
-    padding: 0px;
-}
-
-.service-slider-item-4{
-    background-color: #DDDDDD;
-    padding: 85px 0px;
-}
-.service-slider-item-5{
-    background-color: #FCD4BA;
-    padding: 0px;
-}
-.service-slider-item-6{
-    background-color: #88F6FF;
-    padding: 0px;
-}
-.service-slider-item-7{
-    background-color: #FFBBBB;
-    padding: 0px;
+    left: 22%;
 }
 .service-slider-item .section-heading{
     font-size: 42px;
@@ -465,7 +426,7 @@ ul li a{
     color: #1E929B;
 }
 .service-slider-item-3 .section-heading span{
-    color: #D6AC29;
+    color: #FF6B01;
 }
 .service-slider-item-4 .section-heading span{
     color: #930E33;
@@ -485,26 +446,9 @@ ul li a{
 }
 
 /* Pricing */
-    .web-design-services,
-    .all-services{
-        background-image: url(../images/pricing-section.png);
-        background-repeat: no-repeat;
-        background-position: right center;
-        background-size: 38%;
-    }
-    .logo-design-services{
-        background-image: url(../images/logo-design-pricing.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 33%;
-    }
     .all-services .dark-btn,
     .logo-design-services .dark-btn{
         border: 2px solid #B22234;
-    }
-    .web-design-services{
-        background-image: url(../images/web-service.png);
-        background-position: right bottom;
     }
     .web-design-services .dark-btn{
         background-color: #325EB6;
@@ -515,18 +459,13 @@ ul li a{
         background-image: url(../images/clothing-banner-2.png);
         background-position: right bottom;
         background-repeat: no-repeat;
-        background-size: 28%;
+        background-size: 36%;
     }
+    #merchandise-pack .dark-btn,
     .merchandise-services .dark-btn{
         background-color: #F3A33B;
         border: 2px solid #F3A33B;
         box-shadow: 0px 4px 6px rgba(243, 163, 59, 0.25);
-    }
-    .art-services{
-        background-image: url(../images/art-background.png);
-        background-repeat: no-repeat;
-        background-position: right bottom;
-        background-size: 32%;
     }
     .art-services .dark-btn{
         background: #0A529D;
@@ -537,7 +476,7 @@ ul li a{
         background-image: url(../images/packaging-banner-2.png);
         background-repeat: no-repeat;
         background-position: right bottom;
-        background-size: 27%;
+        background-size: 36%;
     }
     .packaging-services .dark-btn{
         background: #C7C7CA;
@@ -649,6 +588,26 @@ ul li a{
         text-align: center;
         color: #444444;
     }
+
+    .pricing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pricing-box .pricing{
+        justify-content: left;
+    }
+    .pricing .price{
+        color: #B22234;
+        padding: 7px 15px;
+        border: 2px solid #B22234;
+        border-radius: 5px;
+    }
+    .pricing .price h4{
+        margin: 0 !important;
+        font-weight: bold;
+
+    }
     .pricing-content .package-label{
         margin-bottom: 20px;
     }
@@ -659,20 +618,18 @@ ul li a{
     .pricing-content .medium-text{
         margin-bottom: 20px;
     }
-    .pricing{
-        padding: 6px 12px;
-        border: 1.5px solid #444444;
-        border-radius: 100px;
-    }
     .pricing h6{
         margin: 0px;
+        margin-right: 15px;
         font-weight: 700 !important;
         font-size: 20px !important;
+        text-decoration: line-through;
     }
-    .pricing h6 span{
+    .pricing p{
         font-weight: normal;
         font-size: 16px;
-        padding: 0px 10px;
+        margin: 0;
+        padding: 0px 10px 0px 0px;
     }
     .features h3{
         line-height: 40px !important; 
@@ -688,29 +645,21 @@ ul li a{
 
     /* Pricing box */
 
-    .services{
-        border-bottom: 1px solid #BDBDBD;
-        height: 100%;
-    }
+   
     .pricing-box{
         padding: 30px;
-        border-right: 1px solid #BDBDBD;
         color: #444444;
         height: 100%;
-    }
-    .pricing-box-2{
-        border-right: 0px;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
     }
     .pricing-box h5{
         margin: 30px 0px 10px 0px !important;
     }
     .pricing-box .pricing{
         margin: 20px 0px 30px 0px;
-        width: 77%;
-        padding: 7px 14px;
     }
     .pricing-box ul{
-        margin-bottom: 30px !important;
+        margin: 30px 0px !important;
     }
     .portfolio-filter{
         display: flex;
@@ -719,26 +668,21 @@ ul li a{
         display: none;
         margin-top: 60px;
       }
-      .thumb{
-        align-items: center;
-        cursor: pointer;
-      }
-      .slider-item{
-        position: relative;
-        transition: 0.3s ease-in-out;
-      }
 
       /* Modal */
-      .modal{
-          position: relative !important;
-      }
 
+      .modal{
+          padding: 0 !important;
+    }
       .modal-dialog{
-          padding: 30px 0px 80px 0px;
-          max-width: 100% !important;
-          margin: 0px !important;
-      }
-      .close-btn{
+        max-width: 100% !important;
+        margin: 0px !important;
+        max-height: 100% !important;
+    }
+    .modal-content{
+        max-height: 100% !important;
+    }
+    .close-btn{
         margin-bottom: 30px;
         padding: 0px;
         width: 50px;
@@ -780,8 +724,87 @@ ul li a{
       }
       .modal-content .pricing{
           margin-right: 10px;
-      }
+      } 
       
+      /* Modal Style */
+
+      #merchandise-pack .modal-content h3,
+      #merchandise-pack .modal-content .section-heading {
+          color: #F3A33B;
+      }
+      #illustration-pack .modal-content h3,
+      #illustration-pack .modal-content .section-heading{
+          color: #002C54;
+      }
+      #illustration-pack .dark-btn{
+          background-color: #002C54;
+          border: 2px solid #002C54;
+          box-shadow: 0px 4px 6px rgba(0, 44, 84, 0.25);
+      }
+      #webpage .modal-content .section-heading{
+          color: #FB6702;
+      }
+      #webpage .dark-btn{
+          background-color: #FB6702;
+          border: 2px solid #FB6702;
+          box-shadow: 0px 4px 6px rgba(251, 103, 2, 0.25);
+      }
+      #wordpress-theme .modal-content .section-heading{
+          color: #995F53;
+      }
+      #wordpress-theme .dark-btn{
+          background-color: #995F53;
+          border: 2px solid #995F53;
+          box-shadow: 0px 4px 6px rgba(153, 95, 83, 0.25);
+      }
+      #landingpage .modal-content .section-heading{
+          color: #8A8A8A;
+      }
+      #landingpage .dark-btn{
+          background-color: #8A8A8A;
+          border: 2px solid #8A8A8A;
+          box-shadow: 0px 4px 6px rgba(138, 138, 138, 0.25);
+      }
+      #graphic-illustration .modal-content .section-heading{
+          color: #3c2279;
+      }
+      #graphic-illustration .dark-btn{
+          background-color: #3c2279;
+          border: 2px solid #3c2279;
+          box-shadow: 0px 4px 6px rgba(60, 34, 121, 0.25);
+      }
+      #book-cover .modal-content .section-heading{
+        color: #EC0D16;
+      }
+      #book-cover .dark-btn{
+          background-color: #EC0D16;
+          border: 2px solid #EC0D16;
+          box-shadow: 0px 4px 6px rgba(236, 13, 22, 0.25);
+      }
+      #product-package .modal-content .section-heading{
+          color: #8B6256;
+      }
+      #product-package .dark-btn{
+          background-color: #8B6256;
+          border: 2px solid #8B6256;
+          box-shadow: 0px 4px 6px rgba(139, 98, 86, 0.25);
+      }
+      #poster .modal-content .section-heading{
+          color: #A91D85;
+      }
+      #poster .dark-btn{
+          background-color: #A91D85;
+          border: 2px solid #A91D85;
+          box-shadow: 0px 4px 6px rgba(169, 29, 133, 0.25);
+      }
+      #Product-label .modal-content .section-heading{
+        color: #590B08;
+      }
+      #Product-label .dark-btn{
+          background-color: #590B08;
+          border: 2px solid #590B08;
+          box-shadow: 0px 4px 6px rgba(89, 11, 8, 0.25);
+      }
 @media only screen and (max-width: 767px) {
 
     /* Global */
@@ -1008,6 +1031,12 @@ ul li a{
 .inner-banner .animated-gif,
 .inner-banner .whiteboard-animation{
     margin-top: 50px;
+}
+
+/* Call Schedule */
+
+.schedule{
+    margin-bottom: 50px;
 }
 }
 
