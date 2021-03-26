@@ -805,6 +805,15 @@ ul li a{
           border: 2px solid #590B08;
           box-shadow: 0px 4px 6px rgba(89, 11, 8, 0.25);
       }
+      #social-media-pack .modal-content h3,
+      #social-media-pack .modal-content .section-heading{
+        color: #00FFFF;
+      }
+      #social-media-pack .dark-btn{
+          background-color: #00FFFF;
+          border: 2px solid #00FFFF;
+          box-shadow: 0px 4px 6px rgba(0, 255, 255, 0.25);
+      }
 @media only screen and (max-width: 767px) {
 
     /* Global */
