@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/pages/**/*.html",
+    "build": "parcel build src/pages/**/*.html --dist-dir ./dist",
     "lint": "eslint src/js/**/*.js",
     "format": "prettier src/**/*.{js,html,css} --write"
   },
